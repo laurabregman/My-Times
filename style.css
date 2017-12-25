@@ -1,0 +1,111 @@
+header {
+    display: flex;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 80px;
+    border-bottom: 1px solid black;
+    z-index: 20;
+}
+header nav {
+  display: flex;
+  color: black;
+  padding-right: 30px;
+  z-index: 20;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.logo span {
+  color: mediumaquamarine;
+}
+.logo img {
+  margin-right: 12px;
+}
+a {
+  color: black;
+}
+nav span {
+  display: inline-block;
+  padding: 20px;
+}
+body {
+  margin: 0px;
+}
+.main {
+  display: flex;
+  flex-flow: wrap;
+  padding-top: 20px;
+}
+.column.large {
+  width: 630px;
+}
+.section {
+  border: 1px black solid;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.main.story {
+  width: 630px;
+}
+.headline {
+  border: 1px black solid;
+  width: 100%;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+.story {
+  border: 1px solid black;
+  width: 315px;
+  display: block;
+}
+.earth {
+ background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+ height: 300px;
+ width: 300px;
+ font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.section.foot {
+  border: 1px black solid;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  height: 300px;
+  width: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+
+}
+.column.medium {
+  width: 300px;
+}
+.cats {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.column.small {
+  width: 240px;
+}
+.cookie {
+}
